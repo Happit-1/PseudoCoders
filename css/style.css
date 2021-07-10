@@ -1,0 +1,266 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* <-----------------------Title-------------------> */
+.Happit {
+  padding-top: 50px;
+  background-color: #ff4c68;
+  padding: 30px 25px 450px;
+}
+
+#Title .head {
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.subHead {
+  position: absolute;
+  top: 53px;
+  left: 100px;
+  color: #fff;
+}
+
+#Title .links {
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 0 15px;
+}
+
+/* <----------------------------Subtitle(text)------------------------> */
+.text {
+  position: absolute;
+  padding: 100px 200px;
+  line-height: 1.5;
+  /* width: 50%; */
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.textimg {
+  padding-top: 30px;
+}
+
+.Big {
+  font-size: 2.2rem;
+}
+
+.yoga {
+  width: 35%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 15%;
+}
+
+/* ----------------------------Weeks------------------------ */
+#weeks {
+  text-align: center;
+  padding: 50px 0 100px;
+  margin: 0 100px;
+}
+
+.qw {
+  width: 20%;
+  margin: 4%;
+}
+
+.daysU {
+  padding: 15px 8px;
+}
+
+.daysD {
+  padding: 0 8px;
+}
+
+.weekbtn {
+  margin-bottom: 5px;
+}
+
+.weekTitle {
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------Slides------------------------- */
+#slides {
+  background-color: #ff4c68;
+  padding: 10px 10px 55px;
+  text-align: center;
+}
+
+.slide-img {
+  width: 800px;
+  padding-top: 50px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #3500d3;
+}
+
+/* -------------------------------Company----------------------- */
+#company {
+  padding: 40px 10px 45px;
+  text-align: center;
+}
+
+#ooter {
+  color: #ef8172;
+  padding: 1% 40%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+/* ---------------------------Feedback--------------------- */
+#feedback {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  font-weight: bold;
+}
+
+.feedback-img {
+  width: 25px;
+  margin-right: 7px;
+}
+
+
+/* <----------------------------mobile------------------------>  */
+@media (max-width:1028px) {
+  body {
+    text-align: centre;
+  }
+  
+  .drop {
+    font-size: 2rem;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  #Title {
+    padding-bottom: 550px;
+    background-color: #ff4c68;
+  }
+
+  #Title .head {
+    font-size: 4rem;
+  }
+
+  .subHead {
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+.hamburger{
+   position: relative;
+    top: 0px;
+    left: 800px;
+  }
+.hamicon{
+  color: white;
+  font-size: 60px;
+}
+  .listbreak{
+    padding-top: 20px;
+  }
+  .links{
+  line-height = 3rem;
+  }
+
+ 
+
+  .text {
+    font-size: 32px;
+    text-align: center;
+    background-color: #ff4c68:
+  }
+  
+/*
+  .textimg {
+    text-align: -webkit-auto;
+  }
+*/
+
+  .yoga {
+    float: none;
+    margin-left: 0;
+    width: 60%;
+  }
+
+  #weeks {
+    margin-top: 50px;
+    font-size:
+  }
+
+  .weekTitle {
+    font-size: 55px;
+  }
+
+  .weekbtn {
+    padding: 10px 20px;
+    font-size: 30px;
+    /* border-radius: 10px; */
+  }
+
+  .dayslide1, .dayslide2, .dayslide3 {
+    padding: 20px 0 40px;
+  }
+
+  .daysU, .daysD {
+    padding: 10px 13px 20px;
+    width: 80px;
+  }
+
+  .slide-img {
+    width: 700px;
+  }
+
+  .carousel-size {
+    width: 44px;
+    height: 44px;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+
+  #ooter {
+    color: #ef8172;
+    padding: 3% 32%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  #feedback{
+    padding-bottom:20px;
+  }
+  
+  .p {
+    font-size: 30px;
+  }
+
+  .feedback-img {
+    width: 40px;
+  }
+
+  strong {
+    font-size: 1.8rem;
+  }
+
+  #company {
+    padding-bottom: 100px;
+  }
+}
