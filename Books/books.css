@@ -1,0 +1,215 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* <-----------------------Title-------------------> */
+.Happit {
+  padding-top: 50px;
+  background-color: #ff4c68;
+  padding: 30px 25px 60px;
+}
+
+#Title .head {
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.subHead {
+  position: absolute;
+  top: 53px;
+  left: 100px;
+  color: #fff;
+}
+
+#Title .links {
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 0 15px;
+}
+
+/* <----------------------------Subtitle(text)------------------------> */
+.text {
+  position: absolute;
+  padding: 100px 200px;
+  line-height: 1.5;
+  /* width: 50%; */
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.textimg {
+  padding-top: 30px;
+}
+
+.Big {
+  font-size: 2.2rem;
+}
+
+.yoga {
+  width: 35%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 15%;
+}
+
+/*----------------------------Subtitle(text)-------------------------------*/
+/*----------------------------message-------------------------------*/
+#message {
+  text-align: center;
+  padding: 25px 200px;
+}
+
+.msg {
+  font-weight: bold;
+}
+
+/*----------------------------message-------------------------------*/
+/*----------------------------bookSelector-------------------------------*/
+#bookSelector {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 50px 0;
+}
+
+.book-img {
+  width: 15%;
+}
+
+.carouselColor {
+  width: 44px;
+  height: 44px;
+}
+
+.suggestion {
+  font-size: 1.5rem;
+  padding: 0 285px;
+  text-align: center;
+  color: white;
+}
+
+.lineBreak {
+  background-color: #fff;
+  height: 0.5rem;
+}
+
+.hide_bro {
+  /* position: absolute; */
+  /* visibility: hidden; */
+  padding-top: 30px;
+  top:
+}
+
+.give {
+  background-color: #ffc107;
+}
+
+.span {
+  color: Yellow;
+}
+
+/*----------------------------bookSelector-------------------------------*/
+/* -------------------------------Company----------------------- */
+#company {
+  padding: 40px 10px 45px;
+  text-align: center;
+}
+
+#ooter {
+  color: #ef8172;
+  padding: 1% 40%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+/* ---------------------------Feedback--------------------- */
+#feedback {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  font-weight: bold;
+}
+
+.feedback-img {
+  width: 25px;
+  margin-right: 7px;
+}
+
+
+/* <----------------------------mobile------------------------>  */
+@media (max-width:1028px) {
+  body {
+    text-align: centre;
+  }
+
+  #Title {
+    padding-bottom: 70px;
+    background-color: #ff4c68;
+  }
+
+  #Title .head {
+    font-size: 4rem;
+  }
+
+  .subHead {
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+
+  #ooter {
+    color: #ef8172;
+    padding: 3% 32%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #feedback {
+    padding-bottom: 10px;
+  }
+
+  .p {
+    font-size: 30px;
+  }
+
+  .feedback-img {
+    width: 40px;
+  }
+
+  .suggestion {
+    font-size: 2rem;
+  }
+
+  .msg {
+    font-size: 3rem;
+  }
+
+  .spec {
+    font-size: 2.1rem;
+  }
+
+  .book-img {
+    width: 25%;
+  }
+
+  strong {
+    font-size: 1.8rem;
+  }
+
+  #company {
+    padding-bottom: 100px;
+  }
+
+  
+}
