@@ -1,0 +1,205 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff4c68;
+}
+
+/* <-----------------------Title-------------------> */
+#Title {
+  margin: 0 0 60px;
+}
+
+.book-img {
+  position: absolute;
+  right: 195px;
+  /* top: 0; */
+  color: #fff;
+}
+
+.book-text {
+  position: absolute;
+  right: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.Happit {
+  padding-top: 50px;
+  padding: 30px 25px 0;
+}
+
+#Title .head {
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.subHead {
+  position: absolute;
+  top: 53px;
+  left: 100px;
+  color: #fff;
+}
+
+.don {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.msg {
+  font-weight: bold;
+}
+
+/* ------------------------day1----------------- */
+#day1 {
+  color: #fff;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.calender {
+  width: 150px;
+  padding-top: 1.4rem;
+}
+
+.dayHead {
+  font-weight: bold;
+  padding: 20px 0 0 0;
+}
+
+.row {
+  margin: 0 36%;
+}
+
+.msg {
+  font-size: 2rem;
+}
+
+.fluid-container {
+  height: 0.5rem;
+  background-color: white;
+}
+
+/* -------------------------Text------------------- */
+.text {
+  padding: 6% 5%;
+  color: #fff;
+}
+
+h5 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.5;
+  /* width: 50%; */
+}
+
+.wakeUp {
+  padding-top: 0.7rem;
+  float: left;
+  width: 40%;
+  padding-right: 50px;
+}
+
+.move {
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+/* -----------------------------calenderDays------------------------ */
+#calenderDays {
+  text-align: center;
+  padding: 2% 0;
+}
+
+.calenderDaysU {
+  padding: 0 10px;
+}
+
+/* -------------------------------Company----------------------- */
+#company {
+  padding: 90px 10px 15px 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#ooter {
+  color: #ef8172;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+/* ---------------------------Feedback--------------------- */
+#feedback {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  font-weight: bold;
+}
+
+.feedback-img {
+  width: 25px;
+  margin-right: 7px;
+}
+
+/*___________________mobile________________________  */
+@media (max-width:1028px) {
+  .wakeUp {
+    width: 60%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  h5 {
+    font-size: 2rem;
+    margin: 0 80px;
+  }
+
+  .navg-btn {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .calenderDaysU {
+    padding: 7px 16px 7px;
+    width: 70px;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+
+  #ooter {
+    color: #ef8172;
+    padding: 2% 0%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #feedback {
+    padding-bottom: 10px;
+  }
+
+  strong {
+    font-size: 1.8rem;
+  }
+
+  .p {
+    font-size: 30px;
+    padding-bottom: 100px;
+  }
+
+  .feedback-img {
+    width: 40px;
+  }
+}
