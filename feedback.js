@@ -16,7 +16,7 @@ const padCharacter = (char) => {
 }
 
 const encryptAndSend = (username, projectID, field1='', field2='', field3='', field4='', field5='') => {
-    
+
     username = String(username)
     projectID = String(projectID)
     field1 = String(field1)
@@ -79,8 +79,8 @@ function sendMessage()
     {
         return
     }
-    let feedback = document.getElementById("feedback").value;
-    if(feedback === "")
+    let feedbackk = document.getElementById("feedbackk").value;
+    if(feedbackk === "")
     {
         return
     }
@@ -90,9 +90,9 @@ function sendMessage()
         return
     }
 
-    var a = document.createElement('a'); 
+    var a = document.createElement('a');
     a.id = "sendMeMessage"
-    a.href = encryptAndSend("Sudesh_7447", 36, name, email, feedback, rate);
-    document.body.appendChild(a); 
+    a.href = encryptAndSend("Sudesh_7447", 36, name, email, feedbackk , rate);
+    document.body.appendChild(a);
     $("#sendMeMessage")[0].click();
 }
